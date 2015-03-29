@@ -17,7 +17,7 @@
   "scripts": {
     "pretest": "npm run build",
     "test": "zuul test/*.js --local --open --no-coverage",
-    "ci": "zuul test/ --phantom",
+    "ci": "npm run build && zuul test/ --phantom",
     "build": "webpack"
   },
   "dependencies": {},
