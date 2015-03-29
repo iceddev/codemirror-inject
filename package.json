@@ -1,0 +1,39 @@
+{
+  "name": "codemirror-inject",
+  "version": "0.0.0",
+  "description": "Inject CodeMirror into a page including base and theme CSS",
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "contributors": [],
+  "repository": "iceddev/codemirror-inject",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "dist/codemirror-inject.js",
+  "files": [
+    "LICENSE",
+    "dist"
+  ],
+  "scripts": {
+    "pretest": "npm run build",
+    "test": "zuul test/*.js --local --open --no-coverage",
+    "build": "webpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "codemirror": "^5.1.0",
+    "css-loader": "^0.9.1",
+    "expect": "^1.6.0",
+    "mocha": "^2.2.1",
+    "phantomjs": "git://github.com/phated/phantomjs",
+    "style-loader": "^0.9.0",
+    "webpack": "^1.7.3",
+    "zuul": "git://github.com/defunctzombie/zuul"
+  },
+  "keywords": [
+    "codemirror",
+    "css",
+    "inject",
+    "themes"
+  ]
+}
