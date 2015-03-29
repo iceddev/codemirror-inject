@@ -1,6 +1,6 @@
 {
   "name": "codemirror-inject",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Inject CodeMirror into a page including base and theme CSS",
   "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
   "contributors": [],
